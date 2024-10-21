@@ -6,9 +6,12 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'eslint-plugin-astro',
+			logo: {
+				src: './src/assets/astro-logo.svg',
+			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/ota-meshi/eslint-plugin-astro',
 			},
 			sidebar: [
 				{
