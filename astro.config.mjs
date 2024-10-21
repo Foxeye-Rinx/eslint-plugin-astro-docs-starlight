@@ -14,12 +14,13 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/ota-meshi/eslint-plugin-astro',
 			},
+            customCss: ['./src/styles/custom.css'],
 			sidebar: [
 				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'User Guide', slug: 'guides/user-guide' },
 					],
 				},
 				{
